@@ -368,6 +368,25 @@ h3 {
   transform: translateY(-2px);
 }
 
+.platform-coming-soon {
+  position: relative;
+}
+
+.coming-soon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.85rem;
+  padding: 0.38rem 0.7rem;
+  border-radius: 999px;
+  background: #eef3fb;
+  border: 1px solid var(--line);
+  color: var(--brand);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .workflow-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
