@@ -33,7 +33,7 @@
         </a>
         <div class="nav-actions">
           <a href="#preview" class="btn btn-secondary">See a Preview</a>
-          <a href="mailto:hello@dermrevenuetracker.com?subject=Request%20a%20Demo" class="btn btn-primary">Request a Demo</a>
+          <a href="#request-demo" class="btn btn-primary">Request a Demo</a>
         </div>
       </div>
     </header>
@@ -50,7 +50,7 @@
             Built to support your staff and existing workflows, not replace them.
           </p>
           <div class="hero-actions">
-            <a href="mailto:hello@dermrevenuetracker.com?subject=Request%20a%20Demo" class="btn btn-primary">Request a Demo</a>
+            <a href="#request-demo" class="btn btn-primary">Request a Demo</a>
             <a href="#workflow" class="btn btn-secondary">See How It Fits</a>
           </div>
           <div class="hero-capabilities">
@@ -162,7 +162,7 @@
           <p class="eyebrow">Platform Downloads</p>
           <h2>Access Derm Revenue Tracker on the platform your team uses.</h2>
           <p class="section-lead">
-            Use the download links below for distribution. Each destination is controlled centrally in <code>script.js</code>.
+            Use these request links to route device rollout and build access through one organized intake flow.
           </p>
         </div>
         <div class="cards-2 download-cards">
@@ -185,6 +185,38 @@
         </div>
       </section>
 
+      <section id="request-demo" class="section container reveal">
+        <div class="section-head">
+          <p class="eyebrow">Request a Demo</p>
+          <h2>Send one structured request instead of a loose email thread.</h2>
+          <p class="section-lead">
+            Capture the practice, point of contact, and rollout interest in one place so the next conversation starts with context.
+          </p>
+        </div>
+        <div class="cards-2">
+          <article class="info-card">
+            <h3>What happens next</h3>
+            <p>A request can include billing rollout, workflow review, pricing questions, or platform access needs for your team.</p>
+            <p>Nothing sends automatically to patients. This is an internal sales and onboarding intake flow only.</p>
+          </article>
+          <form id="demo-request-form" class="info-card">
+            <div class="form-grid">
+              <input type="text" name="practiceName" placeholder="Practice name" required />
+              <input type="text" name="contactName" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Work email" required />
+              <input type="tel" name="phone" placeholder="Phone number" />
+              <input type="text" name="locationCount" placeholder="Number of locations" />
+              <input type="text" name="requestType" placeholder="Request type (demo, pricing, platform access)" />
+              <textarea name="notes" rows="5" placeholder="Tell us what you want to review."></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit Request</button>
+              <p id="demo-request-status" class="form-status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
       <section class="section container final-cta reveal">
         <div>
           <p class="eyebrow">Built to Support Staff, Not Replace Them</p>
@@ -194,8 +226,8 @@
           </p>
         </div>
         <div class="final-cta-actions">
-          <a href="mailto:hello@dermrevenuetracker.com?subject=Request%20a%20Demo" class="btn btn-primary">Book a Walkthrough</a>
-          <a href="mailto:hello@dermrevenuetracker.com?subject=Product%20Questions" class="btn btn-secondary">Talk to Us</a>
+          <a href="#request-demo" class="btn btn-primary">Book a Walkthrough</a>
+          <a href="#request-demo" class="btn btn-secondary">Talk to Us</a>
         </div>
       </section>
     </main>
